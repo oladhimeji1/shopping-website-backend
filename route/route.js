@@ -1,24 +1,14 @@
 const express = require ("express");
 const router = express.Router();
-const {
-  AddItem
-} = require ("../controller/itemsController");
+// const app = express();
 
-// const {
-//   updateUserPhoto,
-//   updateUserPhotoCloudinary,
-// } = require ("../controller/uploadcontroller");
+const getItemsRouter = require("../controller/getItems");
+const addItemsRouter = require("../controller/addItems");
+const getImage = require("../controller/getImage");
 
-//user  route
-router.post("/add-item", AddItem);
-// router.post("/newuser", RegisterUser);
-// router.post("/login", LoginUser);
-// router.put("/updateprofile/:id", UpdateProfile);
-// router.get("/user/:id", getOneUserById);
-// router.get("/users", getAllUsers);
-// router.delete("/user/:id", DeleteUser);
-// router.put("/user/updatepic/:id", updateUserPhoto);
-// router.put("/user/updateprofile/:id", updateUserPhotoCloudinary);
+//user route
+router.get("/get-items", getItemsRouter);
+router.get("/images/:id", getImage);
+router.post("/add-item", addItemsRouter);
 
-
-module.exports = router
+module.exports = router;

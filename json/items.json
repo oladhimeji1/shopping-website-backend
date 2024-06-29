@@ -3,25 +3,25 @@
     {
       "id": 1,
       "productName": "IPhone",
-      "price": 999.0,
+      "price": 999,
       "productImage": "1.png"
     },
     {
       "id": 2,
       "productName": "Macbook Pro 2022 (M1)",
-      "price": 1999.0,
+      "price": 1999,
       "productImage": "2.png"
     },
     {
       "id": 3,
       "productName": "Cannon M50 Camera",
-      "price": 699.0,
+      "price": 699,
       "productImage": "3.png"
     },
     {
       "id": 4,
       "productName": "WLS Van Gogh Denim Jacket",
-      "price": 228.0,
+      "price": 228,
       "productImage": "4.png"
     },
     {
@@ -33,20 +33,38 @@
     {
       "id": 6,
       "productName": "SPECTRUM LS TEE",
-      "price": 68.0,
+      "price": 68,
       "productImage": "6.webp"
     },
     {
       "id": 7,
       "productName": "AUTO SERVICE SHIRT by GOLF WANG",
-      "price": 120.0,
+      "price": 120,
       "productImage": "7.webp"
     },
     {
       "id": 8,
       "productName": "DON'T TRIP UNSTRUCTURED HAT",
-      "price": 40.0,
+      "price": 40,
       "productImage": "8.webp"
+    },
+    {
+      "id": 9,
+      "productName": "DON'T TRIP UNSTRUCTURED HAT",
+      "price": 40,
+      "productImage": "5.png"
+    },
+    {
+      "id": 10,
+      "productName": "DON'T TRIP UNSTRUCTURED HAT",
+      "price": 40,
+      "productImage": "6.webp"
+    },
+    {
+      "id": 11,
+      "productName": "DON'T TRIP UNSTRUCTURED HAT",
+      "price": 40,
+      "productImage": "1.png"
     }
   ]
 }
