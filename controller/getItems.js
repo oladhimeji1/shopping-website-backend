@@ -1,5 +1,5 @@
 
-const fs = require('fs')
+const fs = require('fs');
 const getItemsRouter = async (req, res) => {
     fs.readFile(`json/items.json`, { encoding: "utf8" }, (err, data) => {
         if (err) {
